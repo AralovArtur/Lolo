@@ -1,0 +1,25 @@
+@media screen and (min-width: 600px) {
+  .post {
+    width: 31.7%;
+  }
+}
+
+.post {
+  padding: 10px;
+  background-color: rgb(250, 243, 243);
+  border: 2px solid grey;
+}
+
+.post .footer {
+  font-style: italic;
+  font-weight: bold;
+  display: flex;
+  padding: 20px;
+}
+
+.post .image {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 5px;
+}
